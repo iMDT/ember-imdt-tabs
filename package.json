@@ -1,7 +1,8 @@
 {
   "name": "ember-imdt-tabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The default blueprint for ember-cli addons.",
+  "main": "index.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
