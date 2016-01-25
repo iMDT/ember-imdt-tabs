@@ -1,7 +1,5 @@
 import Ember from 'ember';
 
-var get = Ember.get;
-
 export default Ember.Component.extend({
   classNames: ['ember-imdt-tab-pane'],
 
