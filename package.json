@@ -1,6 +1,6 @@
 {
   "name": "ember-imdt-tabs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The default blueprint for ember-cli addons.",
   "main": "index.js",
   "directories": {
@@ -12,11 +12,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/iMDT/ember-imdt-tabs",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "imdt",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
