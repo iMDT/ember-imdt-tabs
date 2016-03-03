@@ -1,4 +1,4 @@
-# Ember-tabs
+# Ember-imdt-tabs
 
 This is an tab addon for Ember.
 These tabs are components, so you can add them on your application by installing the addon and calling for the component.
