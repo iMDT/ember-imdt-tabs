@@ -20,7 +20,7 @@ export default Ember.Component.extend({
       }
       this.setActiveTab(activeTabName);
       this.activatePane(activeTabName);
-      this.$('.ember-imdt-tab-pane').each(function() {
+      this.$().find('> .ember-imdt-tabs-content > .ember-imdt-tab-pane').each(function() {
           let tabName = this.getAttribute('data-tab-name');
           tabs.push({
               active: tabName === activeTabName,
@@ -36,7 +36,7 @@ export default Ember.Component.extend({
   Return a pane by name
   */
   paneByName(name){
-    return this.$('.ember-imdt-tab-pane[data-tab-name="'+name+'"]');
+    return this.$().find('> .ember-imdt-tabs-content > .ember-imdt-tab-pane[data-tab-name="'+name+'"]');
   },
 
   /*
